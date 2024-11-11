@@ -51,6 +51,7 @@ ros-humble-gazebo-ros2-control
 
 # Getting Started
 ```
+cd ros_ws
 killall -9 gzserver robot_state_publisher; colcon build; source install/setup.bash; ros2 launch jetauto_control object_detection.launch.py
 ```
 
