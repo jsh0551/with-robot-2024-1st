@@ -3112,7 +3112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7acef0b79454c9b4dae3f8139bc4ba77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RosIPAddress: 127.0.0.1
+  m_RosIPAddress: 192.168.200.163
   m_RosPort: 10000
   m_ConnectOnStart: 1
   m_KeepaliveTime: 1
@@ -3386,6 +3386,7 @@ GameObject:
   - component: {fileID: 943785389}
   - component: {fileID: 943785390}
   - component: {fileID: 943785391}
+  - component: {fileID: 943785392}
   m_Layer: 0
   m_Name: jetauto
   m_TagString: Untagged
@@ -3437,7 +3438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68b5a76125e4b4424bfd070c27a54d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unityControl: 0
+  unityControl: 1
   motorForce: 10
   maxAngle: 20
   viewFL: {fileID: 2008123195}
@@ -3552,9 +3553,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdceecf28c3962ef0b269d7471a3c8b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &943785392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943785382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994f456c5d6bd409cb1981d6495af4b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   topicName: jetauto/detp_camera/img_raw2
   publishFrequency: 0.1
-  renderTexture: {fileID: 8400000, guid: 983ac737df6ce09be89f84532712e5f7, type: 2}
+  renderTexture: {fileID: 8400000, guid: d58a461497eb9728c99f73f068babaf4, type: 2}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
